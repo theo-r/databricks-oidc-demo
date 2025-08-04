@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DATABRICKS_AUTH_TYPE: github-oidc
-      DATABRICKS_HOST: https://my-workspace.cloud.databricks.com/
-      DATABRICKS_CLIENT_ID: a1b2c3d4-ee42-1eet-1337-f00b44r
+      DATABRICKS_HOST: https://dbc-ade8b91e-5863.cloud.databricks.com/
+      DATABRICKS_CLIENT_ID: 2e1e5c58-13aa-480f-857d-abfe5d02127e
 
     steps:
       - name: Checkout repository
